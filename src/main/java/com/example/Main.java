@@ -1,11 +1,13 @@
 package com.example;
 
+// Use static method with no internal state
 class Calculator1 {
     public static int add(int x, int y) {
         return x+y;
     }
 }
 
+// Use instance method with object-specific state
 class Calculator2 {
 
     int x, y;
@@ -21,6 +23,7 @@ class Calculator2 {
     }
 }
 
+// Use static method with class-wide state
 class Calculator3 {
 
     static int x, y;
