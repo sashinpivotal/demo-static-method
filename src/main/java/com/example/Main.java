@@ -1,5 +1,6 @@
 package com.example;
 
+// my feature branch change
 // Use static method with no internal state
 class Calculator1 {
     public static int add(int x, int y) {
